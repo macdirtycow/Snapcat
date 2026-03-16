@@ -3,12 +3,18 @@ import PackageDescription
 
 let package = Package(
     name: "Snapcat",
+    platforms: [
+        .macOS(.v10_15)
+    ],
     products: [
-        .executable(name: "Snapcat", targets: ["Snapcat"]),
+        .executable(name: "snapcat", targets: ["Snapcat"])
     ],
     dependencies: [],
     targets: [
-        .target(name: "Snapcat", dependencies: []),
-        .testTarget(name: "SnapcatTests", dependencies: ["Snapcat"]),
+        .executableTarget(
+            name: "Snapcat",
+            dependencies: [],
+            path: "Sources"
+        )
     ]
 )

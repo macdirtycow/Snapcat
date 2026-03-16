@@ -1,0 +1,13 @@
+{
+  "": {
+    "dependencies": "/Users/leopold/snapcat/.build/arm64-apple-macosx/release/Snapcat.build/Snapcat.d",
+    "object": "/Users/leopold/snapcat/.build/arm64-apple-macosx/release/Snapcat.build/Snapcat.o",
+    "swift-dependencies": "/Users/leopold/snapcat/.build/arm64-apple-macosx/release/Snapcat.build/master.swiftdeps"
+  },
+  "/Users/leopold/snapcat/Sources/main.swift": {
+    "object": "/Users/leopold/snapcat/.build/arm64-apple-macosx/release/Snapcat.build/main.swift.o",
+    "swiftmodule": "/Users/leopold/snapcat/.build/arm64-apple-macosx/release/Snapcat.build/main~partial.swiftmodule",
+    "swift-dependencies": "/Users/leopold/snapcat/.build/arm64-apple-macosx/release/Snapcat.build/main.swiftdeps",
+    "diagnostics": "/Users/leopold/snapcat/.build/arm64-apple-macosx/release/Snapcat.build/main.dia"
+  }
+}
