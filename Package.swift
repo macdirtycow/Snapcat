@@ -1,19 +1,14 @@
-// swift-tools-version:5.9
+// swift-tools-version:5.5
 import PackageDescription
 
 let package = Package(
     name: "Snapcat",
-    platforms: [.macOS(.v13)],
     products: [
-        .executable(
-            name: "snapcat",
-            targets: ["Snapcat"]
-        )
+        .executable(name: "Snapcat", targets: ["Snapcat"]),
     ],
+    dependencies: [],
     targets: [
-        .executableTarget(
-            name: "Snapcat",
-            path: "Sources"
-        )
+        .target(name: "Snapcat", dependencies: []),
+        .testTarget(name: "SnapcatTests", dependencies: ["Snapcat"]),
     ]
 )
